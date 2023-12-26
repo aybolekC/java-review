@@ -1,0 +1,28 @@
+import java.util.Arrays;
+
+public class TwoSum {
+
+
+    public static void main(String[] args) {
+
+        int[] myArray={2,7,9,11};
+        System.out.println(Arrays.toString(twoSum1(myArray, 9)));
+    }
+
+
+    public static int[] twoSum1(int[] array, int target){
+
+        for (int i=0; i<array.length-1;i++){  //n
+            for (int j=i+1; j<array.length; j++){  //n
+                if(array[i]+array[j]==target){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return new int[]{};
+    }
+
+    //n*n
+
+
+}
