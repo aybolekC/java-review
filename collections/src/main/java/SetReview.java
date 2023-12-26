@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class setReview {
+public class SetReview {
 
     public static void main(String[] args) {
 
@@ -23,6 +23,21 @@ public class setReview {
 
         System.out.println(numSet);
         System.out.println(numSet.add(2));
+
+        System.out.println("First repeating: " + firstRepeatingCharacter("java developer"));
+
+
+
+    }
+
+    public static Character firstRepeatingCharacter(String str){
+        //create a hashmap
+        Set<Character> chars=new HashSet<>();
+
+        //Iteration return ch if add returns false
+        for (Character ch: str.toCharArray()) if(!chars.add(ch)) return ch;
+        return null;
+
 
 
 
