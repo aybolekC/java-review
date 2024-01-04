@@ -1,3 +1,5 @@
+package quiz;
+
 public class TestCar {
 
 
@@ -32,6 +34,6 @@ class Car{
 
     protected  void print(){
 
-        System.out.println("TestCar[year= " + this.year + ", model= " + this.model + "]");
+        System.out.println("quiz.TestCar[year= " + this.year + ", model= " + this.model + "]");
     }
 }

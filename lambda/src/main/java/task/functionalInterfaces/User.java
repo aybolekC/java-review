@@ -1,4 +1,4 @@
-package functionalInterfaces;
+package task.functionalInterfaces;
 
 
 import lombok.AllArgsConstructor;

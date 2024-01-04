@@ -1,3 +1,5 @@
+package quiz;
+
 public class Number {
     int num1=6;
     static int num2=10;

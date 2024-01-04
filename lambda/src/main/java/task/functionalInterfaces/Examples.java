@@ -1,4 +1,4 @@
-package functionalInterfaces;
+package task.functionalInterfaces;
 
 import java.util.function.*;
 
@@ -47,6 +47,10 @@ public class Examples {
         System.out.println("//************************SUPPLIER****************************//");
         Supplier<Double> randomValue=()->Math.random();
         System.out.println(randomValue.get());
+
+
+        Predicate<Integer> pred=(p)-> p%2==0 ? true : false;
+        System.out.println(pred.test(7));
 
 
 

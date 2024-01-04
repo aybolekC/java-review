@@ -1,3 +1,5 @@
+package quiz;
+
 public class StaticDemo {
 
     static String n1=examName("O");
