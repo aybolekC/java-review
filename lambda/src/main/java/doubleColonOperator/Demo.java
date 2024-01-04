@@ -41,5 +41,13 @@ public class Demo {
 
         Consumer<Integer> display2=System.out::println;
         display2.accept(90);
+
+        //how to use double colon for instance method?
+        BiFunction<MyClass, Integer, Double> v2=MyClass::method;
+        BiFunction<String, String, String> v3=String::concat;
+
+
+
+
     }
 }

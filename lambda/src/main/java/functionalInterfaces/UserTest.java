@@ -1,4 +1,4 @@
-package task.functionalInterfaces;
+package functionalInterfaces;
 
 import java.util.ArrayList;
 import java.util.List;
